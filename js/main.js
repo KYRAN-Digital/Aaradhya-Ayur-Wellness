@@ -59,7 +59,7 @@ const BLOGS_DATA = [
       </ul>
       
       <h3>The Aaradhya Commitment</h3>
-      <p>Led by Ganesh Bhaskar Shelar, who has spent 16+ years managing QA and Food Safety at global giants like Nestlé and Kellogg's, Aaradhya Ayur Wellness applies world-class quality systems. We believe that quality is not an act, but a habit, ensuring that every drop or capsule you ingest is scientifically validated for safety and purity.</p>
+      <p>Led by Mr. Ganesh Shelar, who has spent 18+ years managing QA and Food Safety at global giants like Nestlé, Mondelez, and Kellogg's, Aaradhya Ayur Wellness applies world-class quality systems. We believe that quality is not an act, but a habit, ensuring that every drop or capsule you ingest is scientifically validated for safety and purity.</p>
     `
   },
   {
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Construct pre-filled WhatsApp message
         const waText = encodeURIComponent(`Hello Aaradhya Ayur Wellness! I would like to inquire about the product: ${prod.name} (MRP: Rs. ${prod.mrp}, DP: Rs. ${prod.dp}). Please provide further details.`);
-        const waLink = `https://wa.me/919307568748?text=${waText}`;
+        const waLink = `https://wa.me/919860129216?text=${waText}`;
 
         card.innerHTML = `
           <div class="product-img-wrapper">
@@ -371,7 +371,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `🌱 Health Concern: ${concern}`
       );
       
-      window.open(`https://wa.me/919307568748?text=${leadText}`, '_blank');
+      window.open(`https://wa.me/919860129216?text=${leadText}`, '_blank');
     });
   }
 
@@ -403,7 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `💬 Message: ${message}`
       );
       
-      const targetWhatsapp = `https://wa.me/919307568748?text=${leadText}`;
+      const targetWhatsapp = `https://wa.me/919860129216?text=${leadText}`;
 
       // Insert Success Banner
       const container = contactForm.parentElement;

@@ -2397,3 +2397,320 @@ textarea.form-control {
     padding: 1.5rem 1rem;
   }
 }
+
+/* ==========================================================================
+   Enhanced About Page Components (Founder, Mission, Expertise, Philosophy)
+   ========================================================================== */
+.role-badges-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: rgba(117, 151, 51, 0.12);
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid rgba(117, 151, 51, 0.25);
+  line-height: 1.3;
+}
+
+.focus-pill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.focus-pill-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.15rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+
+.focus-pill-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--secondary);
+  box-shadow: var(--shadow-md);
+}
+
+.focus-pill-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 12px;
+  background: rgba(117, 151, 51, 0.14);
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+}
+
+.focus-pill-card h4 {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.35rem;
+}
+
+.focus-pill-card p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.compliance-box {
+  background: linear-gradient(135deg, rgba(44, 80, 19, 0.06), rgba(202, 194, 77, 0.12));
+  border: 1px solid rgba(117, 151, 51, 0.3);
+  border-left: 5px solid var(--primary);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  margin-top: 2.5rem;
+}
+
+.compliance-box p {
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.expertise-card {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 2.25rem 2rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+  display: flex;
+  flex-direction: column;
+}
+
+.expertise-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--secondary);
+  box-shadow: var(--shadow-md);
+}
+
+.expertise-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(117, 151, 51, 0.18);
+}
+
+.expertise-card-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 12px;
+  background: rgba(44, 80, 19, 0.1);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+}
+
+.expertise-card-header h3 {
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
+
+.expertise-pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.expertise-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: var(--bg-light);
+  color: #2e4321;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid rgba(44, 80, 19, 0.12);
+  transition: var(--transition-base);
+}
+
+.expertise-pill:hover {
+  background-color: rgba(117, 151, 51, 0.12);
+  border-color: var(--secondary);
+  color: var(--primary);
+}
+
+.expertise-pill i {
+  color: var(--secondary);
+  font-size: 0.75rem;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.mission-card {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  padding: 2.5rem 2rem;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-base);
+}
+
+.mission-card:hover {
+  border-color: var(--secondary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.mission-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.mission-card-icon {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  background: rgba(117, 151, 51, 0.14);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.mission-card-header h3 {
+  font-family: var(--font-sans);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
+
+.mission-card p {
+  color: #384c2c;
+  font-size: 0.96rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.mission-motto-banner {
+  margin-top: auto;
+  background: linear-gradient(135deg, rgba(44, 80, 19, 0.08), rgba(117, 151, 51, 0.12));
+  border-radius: 10px;
+  padding: 0.85rem 1.25rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.9rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  border: 1px dashed rgba(117, 151, 51, 0.4);
+}
+
+.vision-banner-card {
+  background: linear-gradient(135deg, #2c5013 0%, #1b2f0c 100%);
+  color: var(--text-light);
+  border-radius: 20px;
+  padding: 3.5rem 3rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.vision-banner-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(202, 194, 77, 0.2) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.vision-quote-highlight {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.philosophy-banner {
+  background: #fbfbfa;
+  border: 2px dashed rgba(117, 151, 51, 0.35);
+  border-radius: 20px;
+  padding: 3.5rem 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.philosophy-quote-text {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--primary);
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .focus-pill-grid,
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .vision-banner-card,
+  .philosophy-banner {
+    padding: 2.25rem 1.5rem;
+  }
+  .vision-quote-highlight {
+    font-size: 1.2rem;
+  }
+  .philosophy-quote-text {
+    font-size: 1.25rem;
+  }
+  .expertise-card {
+    padding: 1.75rem 1.25rem;
+  }
+}
